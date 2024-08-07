@@ -13,7 +13,7 @@ export default function Navigation() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Departments" id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#cardiology">Cardiology</NavDropdown.Item>
                 <NavDropdown.Item href="#neurology">Neurology</NavDropdown.Item>
@@ -33,10 +33,10 @@ export default function Navigation() {
                 <NavDropdown.Item href="#Patient">Patient</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Register" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#Doctor">Doctor</NavDropdown.Item>
-                <NavDropdown.Item href="#Nurse">Nurse</NavDropdown.Item>
+                <NavDropdown.Item href="doctorRegister">Doctor</NavDropdown.Item>
+                <NavDropdown.Item href="nurseRegister">Nurse</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#Attendant">Attendant</NavDropdown.Item>
+                <NavDropdown.Item href="attendantRegister">Attendant</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

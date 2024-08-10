@@ -9,3 +9,7 @@
     background-color: rgb(159, 215, 239);
     opacity: 0.85;
 }
+
+.noteItem:hover {
+    opacity: 1;
+}

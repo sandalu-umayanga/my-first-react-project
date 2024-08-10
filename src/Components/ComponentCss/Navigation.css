@@ -6,6 +6,7 @@
     left: 0;
     right: 0;
     background-color:#004080 !important;
+    z-index: 3;
   }
 
   /* Styling the nav container */

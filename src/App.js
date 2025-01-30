@@ -9,6 +9,7 @@ import LoginForm from "./Components/LoginForm";
 import RegisterForm from "./Components/RegisterForm";
 import Profile from "./Components/Profile";
 import SelfHome from "./Components/SelfHome";
+import { Button } from "react-bootstrap";
 
 function App() {
   const [isAuthenticated, setAuthenticated] = useState(false); // State for authentication
@@ -20,6 +21,7 @@ function App() {
         <MainInfo />
         <div className="main-content">
           <Routes>
+            <Route path="/" element={<Button />} />
             <Route path="/" element={<Home />} />
             <Route path="/doctorregister" element={<RegisterForm name="Doctor Registration" link="http://localhost:8080/api/v1/doctor/saveDoctor" />} />
             <Route path="/nurseregister" element={<RegisterForm name="Nurse Registration" link="http://localhost:8080/api/v1/nurse/saveNurse" />} />

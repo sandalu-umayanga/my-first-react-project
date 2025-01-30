@@ -29,7 +29,7 @@ export default function Home() {
         <div className="row">
           <div className="col-12 text-light">
             <h1>
-              The Future Of
+              The Future Of the
               <br />
               Medical Website
             </h1>

@@ -4,5 +4,5 @@ test('addition works correctly', () => {
 
 
 test('addition works correctly', () => {
-  expect(2 + 4).toBe(6);
+  expect(2 + 4).toBe(7);
 });

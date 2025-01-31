@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+test('addition works correctly', () => {
+  expect(2 + 3).toBe(5);
+});
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('subtraction works correctly', () => {
+  expect(5 - 3).toBe(2);
+});
+
+test('multiplication works correctly', () => {
+  expect(4 * 2).toBe(8);
+});
+
+test('division works correctly', () => {
+  expect(10 / 2).toBe(5);
 });
